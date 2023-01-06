@@ -38,3 +38,7 @@ Overall, virtual machines offer a convenient and flexible way to run multiple op
 - `aptitude` has additional features that are not available in apt, such as the ability to resolve dependencies automatically and the ability to mark packages as "automatically installed" so that they can be automatically removed when they are no longer needed.
 
 Overall, both `apt` and `aptitude` are useful tools for package management on Debian-based systems. You can choose the tool that best fits your needs and preferences.
+
+**AppArmor**
+
+`AppArmor` (Application Armor) is a Linux security module that allows system administrators to restrict the actions that programs can perform on a system. It is similar to other mandatory access control systems, like SELinux, but is more lightweight and easier to use. With AppArmor, administrators can specify rules that determine what system resources (such as files, network sockets, and interprocess communication mechanisms) a program is allowed to access. If a program tries to access a resource that is not allowed by its AppArmor profile, the access is denied and an alert is generated. AppArmor is often used to improve the security of system services and third-party applications by limiting their potential attack surface.
