@@ -42,3 +42,21 @@ Overall, both `apt` and `aptitude` are useful tools for package management on De
 **AppArmor**
 
 `AppArmor` (Application Armor) is a Linux security module that allows system administrators to restrict the actions that programs can perform on a system. It is similar to other mandatory access control systems, like SELinux, but is more lightweight and easier to use. With AppArmor, administrators can specify rules that determine what system resources (such as files, network sockets, and interprocess communication mechanisms) a program is allowed to access. If a program tries to access a resource that is not allowed by its AppArmor profile, the access is denied and an alert is generated. AppArmor is often used to improve the security of system services and third-party applications by limiting their potential attack surface.
+
+**What is LVM and how it work**
+
+Logical Volume Manager `LVM` is a system for managing disk storage in Linux. It allows you to create logical volumes, which are abstractions of physical storage devices, and to manage them as a single entity.
+
+Here's how `LVM` works at a high level:
+
+- Physical storage devices, such as hard drives or partitions, are grouped together into volume groups `VGs`.
+
+- Each `VG` is divided into logical volumes `LVs`.
+
+- The `LVs` can be treated as normal block devices, such as hard drives or partitions. They can be formatted with a filesystem and mounted like any other storage device.
+
+- The `LVs` can be resized or moved to different `VGs` without the need to reformat or move data. This allows for greater flexibility in allocating storage and making use of available space.
+
+- `LVM` also provides features for snapshotting and mirroring LVs, which can be useful for backup and disaster recovery purposes.
+
+`LVM` is useful for managing large amounts of storage, particularly in enterprise environments. It allows administrators to easily allocate and manage storage resources without the need to worry about the underlying physical devices.
