@@ -98,7 +98,3 @@ In Cron, tasks are defined using crontab files. A crontab file is a text file th
 Crontab files are stored in the `/etc/crontab` directory, and each user can also have their own crontab file in the `/var/spool/cron` directory. The system administrator can use the crontab command to manage the crontab files for the system and for individual users.
 
 Cron is a useful tool for automating tasks and maintaining a system. It is often used by system administrators and other IT professionals to automate routine tasks and to ensure that systems are running smoothly.
-
-
-
-
