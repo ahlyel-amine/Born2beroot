@@ -31,10 +31,10 @@ Overall, virtual machines offer a convenient and flexible way to run multiple op
 
 `apt` and `aptitude` are both package management tools for Debian and Debian-based Linux distributions. Both tools are used to install, remove, and manage packages on the system.
 
-- `apt` is a command-line tool that is used to manage packages through the use of various subcommands, such as install, remove, and upgrade. aptitude is also a command-line tool, but it has a more user-friendly interface and allows you to perform package management tasks through an interactive menu.
+- `apt` is a command-line tool that is used to manage packages through the use of various subcommands, such as install, remove, and upgrade. `aptitude` is also a command-line tool, but it has a more user-friendly interface and allows you to perform package management tasks through an interactive menu.
 
 - `apt` uses the dpkg package manager under the hood to manage packages, while aptitude uses its own package manager.
 
 - `aptitude` has additional features that are not available in apt, such as the ability to resolve dependencies automatically and the ability to mark packages as "automatically installed" so that they can be automatically removed when they are no longer needed.
 
-Overall, both apt and aptitude are useful tools for package management on Debian-based systems. You can choose the tool that best fits your needs and preferences.
+Overall, both `apt` and `aptitude` are useful tools for package management on Debian-based systems. You can choose the tool that best fits your needs and preferences.
